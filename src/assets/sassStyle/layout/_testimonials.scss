@@ -1,0 +1,39 @@
+.testimonials {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+  &__carousel {
+    display: flex;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+    line-height: 1.2;
+  }
+
+  &__content {
+    background-color: $Vary-Light-Gray;
+    padding: 1rem;
+    margin: 2rem;
+    gap: 2rem;
+
+    &-avatar {
+      transform: translateY(-50%);
+      max-width: 100px;
+      aspect-ratio: 1;
+    }
+
+    &-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    &-text {
+      color: $Dark-Grayish-Blue;
+      margin-top: 2rem;
+    }
+  }
+}

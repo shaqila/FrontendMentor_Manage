@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    // width: 70%;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3.3rem;
+  margin-bottom: 2.2rem;
+  line-height: 1.2;
+}
+
+.subTitle {
+  color: $Dark-Grayish-Blue;
+  line-height: 1.5;
+  padding-right: 7rem;
+  margin-bottom: 2.2rem;
+}

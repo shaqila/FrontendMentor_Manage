@@ -1,0 +1,26 @@
+.btn {
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: $Bright-Red;
+  color: $Vary-Light-Gray;
+  box-shadow: 0 8px 10px rgba(255, 116, 3, 0.349);
+
+  &:hover {
+    background-color: lighten($Bright-Red, 10%);
+    box-shadow: 0 8px 10px rgba(255, 116, 3, 0.349);
+  }
+
+  &-white {
+    background-color: $Vary-Light-Gray;
+    color: $Bright-Red;
+
+    &:hover {
+      background-color: $Vary-Light-Gray;
+      color: lighten($Bright-Red, 20%);
+    }
+  }
+}

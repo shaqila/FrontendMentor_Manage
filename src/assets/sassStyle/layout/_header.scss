@@ -1,0 +1,8 @@
+$header-bg-image: url(../images/bg-tablet-pattern.svg);
+
+.header {
+  background-image: $header-bg-image;
+  background-repeat: no-repeat;
+  background-position-y: -150px;
+  background-position-x: 600px;
+}

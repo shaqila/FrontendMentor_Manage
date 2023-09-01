@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  width: calc(100vw - 12rem);
+  margin-left: auto;
+  margin-right: auto;
+
+  &__links {
+    display: flex;
+    gap: 1rem;
+    font-weight: 500;
+
+    a {
+      color: $Dark-Blue;
+
+      &:hover {
+        color: $Dark-Grayish-Blue;
+      }
+    }
+  }
+
+  &__hamburger {
+    display: none;
+  }
+}
