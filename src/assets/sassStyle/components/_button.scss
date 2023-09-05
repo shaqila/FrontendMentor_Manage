@@ -6,7 +6,7 @@
   padding: 1rem 2rem;
   border-radius: 2rem;
   background-color: $Bright-Red;
-  color: $Vary-Light-Gray;
+  color: $Very-Light-Gray;
   box-shadow: 0 8px 10px rgba(255, 116, 3, 0.349);
 
   &:hover {
@@ -15,12 +15,20 @@
   }
 
   &-white {
-    background-color: $Vary-Light-Gray;
+    background-color: $Very-Light-Gray;
     color: $Bright-Red;
 
     &:hover {
-      background-color: $Vary-Light-Gray;
+      background-color: $Very-Light-Gray;
       color: lighten($Bright-Red, 20%);
+    }
+  }
+
+  &-submit {
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: none;
     }
   }
 }

@@ -1,12 +1,19 @@
 import { testimonis } from "../const";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
 
 const Testimonials = () => {
   return (
     <section className="testimonials">
       <div className="testimonials__title">What they&apos;ve said</div>
-      <div className="testimonials__carousel">
+      <Swiper
+        className="testimonials__carousel"
+        spaceBetween={50}
+        slidesPerView={3}
+        grabCursor={true}
+      >
         {testimonis.map((testimoni, index) => (
-          <div key={index} className="testimonials__content">
+          <SwiperSlide key={index} className="testimonials__content">
             <div className="testimonials__content-avatar">
               <img src={testimoni.avatar} alt={testimoni.name} />
             </div>
@@ -14,9 +21,10 @@ const Testimonials = () => {
             <div className="testimonials__content-text">
               “{testimoni.content}”
             </div>
-          </div>
+          </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
+
       <button className="btn">Get Started</button>
     </section>
   );

@@ -1,12 +1,15 @@
+$simplify-bg-image: url(../images/bg-simplify-section-desktop.svg);
+
 .simplify {
   width: 100vw;
   background-color: $Bright-Red;
-  padding: 5rem 1.5rem;
+  padding: 5rem 0;
+  background-position: 6rem -6rem;
+  background-image: $simplify-bg-image;
+  background-repeat: no-repeat;
 
   &__cta {
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -17,5 +20,6 @@
     font-size: 3rem;
     width: 50%;
     line-height: 1.1;
+    margin-left: 6rem;
   }
 }

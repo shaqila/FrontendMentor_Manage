@@ -2,6 +2,11 @@ import avatarAli from "../assets/images/avatar-ali.png";
 import avatarAnisha from "../assets/images/avatar-anisha.png";
 import avatarRichard from "../assets/images/avatar-richard.png";
 import avatarShanai from "../assets/images/avatar-shanai.png";
+import iconFacebook from "../assets/images/icon-facebook.svg";
+import iconYoutube from "../assets/images/icon-youtube.svg";
+import iconX from "../assets/images/icon-twitter.svg";
+import iconPinterest from "../assets/images/icon-pinterest.svg";
+import iconInstagram from "../assets/images/icon-instagram.svg";
 
 export const features = [
   {
@@ -40,10 +45,33 @@ export const testimonis = [
     content:
       "Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!",
   },
-  // {
-  //   avatar: avatarShanai,
-  //   name: "Shanai Gough",
-  //   content:
-  //     "Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.",
-  // },
+  {
+    avatar: avatarShanai,
+    name: "Shanai Gough",
+    content:
+      "Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.",
+  },
+];
+
+export const medias = [
+  {
+    title: "Facebook",
+    icon: iconFacebook,
+  },
+  {
+    title: "Youtube",
+    icon: iconYoutube,
+  },
+  {
+    title: "X",
+    icon: iconX,
+  },
+  {
+    title: "Pinterest",
+    icon: iconPinterest,
+  },
+  {
+    title: "Instagram",
+    icon: iconInstagram,
+  },
 ];
