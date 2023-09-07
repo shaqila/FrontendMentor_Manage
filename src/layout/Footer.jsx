@@ -8,9 +8,9 @@ const Footer = () => {
         <img src={logo} alt="logo icon" className="footer__media-logo" />
         <div className="footer__media-link">
           {medias.map((media, index) => (
-            <div key={index} className="footer__media-list">
+            <a key={index} href="" className="footer__media-list">
               <img src={media.icon} alt={media.title} />
-            </div>
+            </a>
           ))}
         </div>
       </div>
